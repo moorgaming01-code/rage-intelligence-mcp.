@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-0001",
+  "claim": "Rockstar developers described streaming as a foundational part of its open-world technology.",
+  "status": "reported",
+  "confidence": "medium",
+  "scope": "Historical RAGE technology",
+  "source_ids": [
+    "SRC-0001"
+  ],
+  "limitations": [
+    "The source discusses historical RAGE technology.",
+    "It does not establish the exact streaming implementation used in GTA VI.",
+    "The original interview should be reviewed before treating this record as verified."
+  ],
+  "review_status": "needs_review"
+}

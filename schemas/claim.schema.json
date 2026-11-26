@@ -35,7 +35,11 @@
     },
     "confidence": {
       "type": "string",
-      "enum": ["low", "medium", "high"]
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
     },
     "scope": {
       "type": "string"
