@@ -188,6 +188,12 @@ We clearly distinguish between:
 
 Accuracy and transparency come before speculation.
 
+### 📸 See RAGE Intelligence MCP in action
+
+Here is our MCP server connected and successfully running all four tools.
+
+![RAGE Intelligence MCP Inspector Demo](docs/mcp-inspector-demo.png)
+
 ---
 
 ## 📜 Licence
