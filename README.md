@@ -1,4 +1,13 @@
+
+
+
 # RAGE Intelligence MCP
+
+**New to MCP or GitHub? Start here:**
+
+👉 [Read the Beginner's Guide](README-BEGINNERS.md)
+
+An open-source, evidence-aware RAGE technology research platform with an MCP server for AI-assisted exploration of publicly documented game-engine technology.
 
 An independent, open-source research and knowledge platform for studying Rockstar's RAGE technology and publicly observable GTA VI systems.
 
