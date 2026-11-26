@@ -1,73 +1,87 @@
-
 # RAGE Intelligence MCP 🚀
 
-An open-source project researching Rockstar's RAGE game engine using publicly available information.
+**An open-source research project exploring Rockstar's RAGE game engine using publicly available information.**
 
-**New here?** Start with our [Beginner's Guide](README-BEGINNERS.md).
+New to the project? Start with our [Beginner's Guide](README-BEGINNERS.md).
 
-### Useful links
+### Project links
 - [Project Vision](docs/PROJECT_VISION.md)
 - [Architecture](docs/ARCHITECTURE.md)
-- [How to Contribute](CONTRIBUTING.md)
+- [Contributing Guide](CONTRIBUTING.md)
 - [Growth Strategy](GROWTH-STRATEGY.md)
 
 ---
 
-## 🎮 What is this project?
+## 🎮 What is RAGE Intelligence MCP?
 
-RAGE Intelligence MCP is a research project that helps people explore and organise information about Rockstar's RAGE technology and publicly documented GTA VI systems.
+RAGE Intelligence MCP is an independent research project focused on Rockstar's RAGE technology and publicly documented information about GTA VI.
 
-It uses an MCP server to let compatible AI applications access our research.
+The project organises technical information, research claims, evidence and sources into one structured knowledge base.
 
-Our goal is simple: make game-engine research easier to explore, understand and share.
+It also includes an MCP server that allows compatible AI applications to explore our research.
 
-**Important:** This is an independent project. We are not affiliated with Rockstar Games or Take-Two Interactive.
+**Our mission:** Make game-engine research easier to understand, explore and share.
+
+> This is an independent community project. It is not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive.
 
 ---
 
 ## 🛠️ What have we built?
 
-The project currently has:
+The project currently includes:
 
-- A research knowledge base.
-- A system for organising evidence and sources.
-- Automatic claim validation.
-- A research search tool.
-- A working Python MCP server.
+- A structured research knowledge base.
+- An evidence and source tracking system.
+- Automatic research claim validation.
+- Keyword-based research searching.
+- A Python MCP server.
 - Four working MCP tools.
-- Beginner and contributor guides.
+- Automated tests.
+- Beginner and contributor documentation.
 
 ### Our four MCP tools
 
-| Tool | What it does |
+| Tool | Description |
 |---|---|
-| `list_claims` | Shows all research claims. |
-| `search_claims` | Searches our research. |
-| `get_claim` | Finds a specific claim. |
-| `validate_knowledge` | Checks our research records and sources. |
+| `list_claims` | Displays all research claims. |
+| `search_claims` | Searches research using keywords. |
+| `get_claim` | Retrieves an individual research claim. |
+| `validate_knowledge` | Checks research records and source references. |
 
-All four tools have been tested using MCP Inspector.
+All four tools have been successfully tested using MCP Inspector.
 
 ---
 
-## 📂 What's inside?
+## 📂 Project structure
 
-- `docs` — Project information and architecture.
-- `research` — Research sources.
-- `knowledge` — Research claims and evidence.
-- `schemas` — Data validation rules.
-- `src` — Python code and MCP server.
-- `tests` — Automated tests.
+Here is a simple explanation of the main folders:
+
+| Folder | Purpose |
+|---|---|
+| `docs/` | Project information and architecture. |
+| `research/` | Research sources and references. |
+| `knowledge/` | Research claims, evidence and open questions. |
+| `schemas/` | Rules for validating research records. |
+| `src/` | Python code and MCP server. |
+| `tests/` | Automated software tests. |
 
 ---
 
 ## 💻 Getting started
 
-You need:
+Want to run the project on your own computer?
+
+Follow these steps.
+
+### Requirements
+
+You will need:
+
 - Python 3.10 or newer.
 - Git.
+- PowerShell on Windows, or a terminal on another operating system.
 
-### Step 1: Download the project
+### Step 1 — Download the project
 
 Open PowerShell and run:
 
@@ -75,92 +89,111 @@ Open PowerShell and run:
 git clone https://github.com/moorgaming01-code/newmpc.git
 ```
 
-### Step 2: Open the project folder
+### Step 2 — Open the project folder
 
 ```bash
 cd newmpc
 ```
 
-### Step 3: Install it
+### Step 3 — Install the project
 
 ```bash
 python -m pip install -e .
 ```
 
-### Step 4: Check everything works
+### Step 4 — Validate the knowledge base
 
 ```bash
 rage-knowledge validate
 ```
 
-### Step 5: View the research
+### Step 5 — List research claims
 
 ```bash
 rage-knowledge list
 ```
 
-### Step 6: Search the research
+### Step 6 — Search the research
 
 ```bash
 rage-knowledge search streaming
 ```
 
-### Step 7: Start the MCP server
+### Step 7 — Start the MCP server
 
 ```bash
 python -m rage_intelligence.server
 ```
 
-Need help connecting an AI application? Follow our [Beginner's Guide](README-BEGINNERS.md).
+For help connecting the MCP server to a compatible AI application, follow our [Beginner's Guide](README-BEGINNERS.md).
 
 ---
 
-## 🤝 Want to help?
+## 🤝 Want to contribute?
 
-We welcome people interested in:
+We welcome people who are interested in:
 
-- Game technology.
-- Python programming.
+- Game-engine technology.
+- Python development.
 - Artificial intelligence.
 - MCP development.
-- Research and documentation.
-- Testing and improving the project.
+- Technical research.
+- Evidence collection.
+- Documentation.
+- Software testing.
 
-You don't need to be an expert to contribute!
+You don't need to be an expert to get involved.
 
-Read our [Contributing Guide](CONTRIBUTING.md) to get started.
+Every useful contribution helps the project grow.
+
+Read our [Contributing Guide](CONTRIBUTING.md) to learn how to participate.
 
 ---
 
 ## 🔭 What's next?
 
-We want to:
+Our future development goals include:
 
-- Expand our research database.
-- Learn more about RAGE technology.
-- Add more MCP tools.
-- Improve our research and evidence systems.
-- Welcome new developers and researchers.
-- Build a stronger open-source community.
+- Expanding the research knowledge base.
+- Researching more RAGE technology subsystems.
+- Improving evidence tracking.
+- Adding more MCP tools.
+- Improving AI-assisted research.
+- Welcoming new developers and researchers.
+- Building an active open-source community.
+
+Development will remain focused on reliable research, useful software and evidence-based conclusions.
 
 ---
 
-## 🔒 Our rules
+## 🔒 Research standards and safety
 
-We only use publicly available information and lawful research.
+We only use publicly available information and lawful research methods.
 
-We do not use:
+This project does not involve:
+
 - Leaked or private Rockstar source code.
 - DRM or anti-cheat bypasses.
-- Unauthorised access to game memory.
+- Unauthorised access to protected game memory.
 - Code injection into proprietary games.
+- Presenting speculation as confirmed technical information.
 
-We also separate confirmed information from reports, inferences, hypotheses and unknowns.
+We clearly distinguish between:
+
+- **Confirmed** — supported by reliable primary evidence.
+- **Reported** — information attributed to publications or interviews.
+- **Inference** — conclusions drawn from available evidence.
+- **Hypothesis** — possibilities that still need investigation.
+- **Unknown** — information that has not been established.
+
+Accuracy and transparency come before speculation.
 
 ---
 
-## 📜 License
+## 📜 Licence
 
-This project uses the MIT License. See [LICENSE](LICENSE).
+This project is released under the MIT Licence.
 
-Rockstar Games and Grand Theft Auto are trademarks and intellectual property of their respective owners.
+See the [LICENSE](LICENSE) file for details.
+
+Rockstar Games, Grand Theft Auto and related trademarks and intellectual property belong to their respective owners.
