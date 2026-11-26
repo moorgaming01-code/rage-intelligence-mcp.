@@ -192,7 +192,7 @@ Accuracy and transparency come before speculation.
 
 Here is our MCP server connected and successfully running all four tools.
 
-![RAGE Intelligence MCP Inspector Demo](docs/mcp-inspector-demo.png)
+![RAGE Intelligence MCP Demo](docs/mcp.png)
 
 ---
 
