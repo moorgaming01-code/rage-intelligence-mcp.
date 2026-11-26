@@ -1,0 +1,6 @@
+claim_id,claim,status,source_id,confidence,scope,review_status,limitations
+CLM-0001,"Rockstar described streaming as a backbone of its open-world technology.",reported,SRC-0001,medium,"Historical RAGE technology",needs_review,"Historical information; does not prove GTA VI implementation."
+CLM-0002,"GTA VI official credits identify teams working across engine technology, graphics, physics, animation, AI, audio and other technical areas.",confirmed,SRC-0002,high,"GTA VI credited development roles",reviewed,"Credits do not establish exact internal architecture."
+CLM-0003,"80 Level reports advanced animation and interconnected environmental systems in GTA VI.",reported,SRC-0003,medium,"Reported GTA VI technology",needs_primary_review,"Secondary reporting; individual technical claims require verification."
+CLM-0004,"TechRadar reports a rewritten vehicle simulation and higher-fidelity aircraft systems.",reported,SRC-0004,medium,"Reported GTA VI vehicle technology",needs_primary_review,"Secondary reporting; verify against the original developer interview."
+CLM-0005,"The exact internal RAGE engine version used by GTA VI is established by our current sources.",unknown,,high,"GTA VI engine version",open,"No verified engine version established in our current research baseline."
