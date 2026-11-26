@@ -1,177 +1,166 @@
 
+# RAGE Intelligence MCP 🚀
 
+An open-source project researching Rockstar's RAGE game engine using publicly available information.
 
-# RAGE Intelligence MCP
+**New here?** Start with our [Beginner's Guide](README-BEGINNERS.md).
 
-**An open-source, evidence-aware research platform for publicly documented Rockstar RAGE technology.**
-
-New to MCP or GitHub? Start with the [Beginner's Guide](README-BEGINNERS.md).
-
-[Project Vision](docs/PROJECT_VISION.md) · [Architecture](docs/ARCHITECTURE.md) · [Contributing](CONTRIBUTING.md) · [Growth Strategy](GROWTH-STRATEGY.md)
+### Useful links
+- [Project Vision](docs/PROJECT_VISION.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [How to Contribute](CONTRIBUTING.md)
+- [Growth Strategy](GROWTH-STRATEGY.md)
 
 ---
 
-## What is RAGE Intelligence MCP?
+## 🎮 What is this project?
 
-RAGE Intelligence MCP is an independent research and knowledge platform for studying publicly documented Rockstar Advanced Game Engine (RAGE) technology and publicly observable GTA VI systems.
+RAGE Intelligence MCP is a research project that helps people explore and organise information about Rockstar's RAGE technology and publicly documented GTA VI systems.
 
-It combines structured research records, evidence tracking, validation tools, and a Model Context Protocol (MCP) server that allows compatible AI applications to explore the knowledge base.
+It uses an MCP server to let compatible AI applications access our research.
 
-The goal is to make technical research more organised, traceable, reproducible, and accessible.
+Our goal is simple: make game-engine research easier to explore, understand and share.
 
-> **Important:** This is an independent community project. It is not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive.
+**Important:** This is an independent project. We are not affiliated with Rockstar Games or Take-Two Interactive.
 
-## Current status
+---
 
-**Stage 2 — Knowledge core and MCP server foundation implemented.**
+## 🛠️ What have we built?
 
-The project currently includes:
+The project currently has:
 
-- Structured research claim records.
-- JSON Schema validation.
-- Source-reference validation.
-- Keyword-based claim searching.
+- A research knowledge base.
+- A system for organising evidence and sources.
+- Automatic claim validation.
+- A research search tool.
 - A working Python MCP server.
-- Four tested MCP tools.
-- Beginner setup and contribution documentation.
+- Four working MCP tools.
+- Beginner and contributor guides.
 
-The MCP server has been connected and tested using MCP Inspector.
+### Our four MCP tools
 
-### Available MCP tools
-
-| Tool | Purpose |
+| Tool | What it does |
 |---|---|
-| `list_claims` | Lists research claims in the knowledge base. |
-| `search_claims` | Searches claims using keywords. |
-| `get_claim` | Retrieves an individual claim by ID. |
-| `validate_knowledge` | Checks claim records and source references. |
+| `list_claims` | Shows all research claims. |
+| `search_claims` | Searches our research. |
+| `get_claim` | Finds a specific claim. |
+| `validate_knowledge` | Checks our research records and sources. |
 
-These tools expose the project's documented research. They do not provide access to Rockstar's private engine implementation.
+All four tools have been tested using MCP Inspector.
 
-## Project principles
+---
 
-1. **Evidence before certainty** — distinguish confirmed facts, reported information, technical inferences, hypotheses, and unknowns.
-2. **Public and authorised inputs only** — no leaked or private source code, DRM or anti-cheat bypass, process injection, or unauthorised memory access.
-3. **Traceability** — substantive claims should include sources, dates, confidence levels, and review status.
-4. **Reproducibility** — document how observations were collected and how conclusions were reached.
-5. **Useful openness** — make the research structure and tools understandable to contributors.
+## 📂 What's inside?
 
-## Repository structure
+- `docs` — Project information and architecture.
+- `research` — Research sources.
+- `knowledge` — Research claims and evidence.
+- `schemas` — Data validation rules.
+- `src` — Python code and MCP server.
+- `tests` — Automated tests.
 
-- `docs/` — project vision and architecture.
-- `research/` — source register and research references.
-- `knowledge/claims/` — structured research claims.
-- `knowledge/evidence/` — evidence ledger.
-- `knowledge/subsystems/` — subsystem catalogue.
-- `knowledge/unknowns/` — open research questions.
-- `schemas/` — JSON schemas for knowledge records.
-- `src/rage_intelligence/` — Python knowledge core, CLI, and MCP server.
-- `tests/` — automated validation tests.
-- `README-BEGINNERS.md` — beginner setup guide.
-- `CONTRIBUTING.md` — contribution guidelines.
-- `GROWTH-STRATEGY.md` — project growth strategy.
+---
 
-## Getting started
+## 💻 Getting started
 
-### Requirements
-
+You need:
 - Python 3.10 or newer.
 - Git.
-- A compatible MCP client if you want to connect the server to an AI application.
 
-### Install
+### Step 1: Download the project
 
-Clone the repository:
+Open PowerShell and run:
 
 ```bash
 git clone https://github.com/moorgaming01-code/newmpc.git
+```
+
+### Step 2: Open the project folder
+
+```bash
 cd newmpc
 ```
 
-Install the project:
+### Step 3: Install it
 
 ```bash
 python -m pip install -e .
 ```
 
-### Validate the knowledge base
+### Step 4: Check everything works
 
 ```bash
 rage-knowledge validate
 ```
 
-### List research claims
+### Step 5: View the research
 
 ```bash
 rage-knowledge list
 ```
 
-### Search research claims
+### Step 6: Search the research
 
 ```bash
 rage-knowledge search streaming
 ```
 
-### Run the MCP server
+### Step 7: Start the MCP server
 
 ```bash
 python -m rage_intelligence.server
 ```
 
-For MCP client configuration and Windows-specific instructions, see the [Beginner's Guide](README-BEGINNERS.md).
+Need help connecting an AI application? Follow our [Beginner's Guide](README-BEGINNERS.md).
 
-## Research terminology
+---
 
-| Classification | Meaning |
-|---|---|
-| Confirmed | Directly supported by a primary source or reproducible observation. |
-| Reported | Attributed to a publication, interview, or secondary source. |
-| Inference | A reasoned conclusion drawn from available evidence. |
-| Hypothesis | A testable possibility with incomplete support. |
-| Unknown | Not established by available evidence. |
-
-## How to contribute
+## 🤝 Want to help?
 
 We welcome people interested in:
 
-- Game-engine technology research.
-- Python development.
-- MCP integrations.
-- Technical documentation.
-- Evidence collection and source verification.
-- Testing and improving the knowledge base.
+- Game technology.
+- Python programming.
+- Artificial intelligence.
+- MCP development.
+- Research and documentation.
+- Testing and improving the project.
 
-Start with [CONTRIBUTING.md](CONTRIBUTING.md).
+You don't need to be an expert to contribute!
 
-Good research matters more than big claims. Every contribution should respect the project's evidence standards and safety principles.
+Read our [Contributing Guide](CONTRIBUTING.md) to get started.
 
-## Roadmap
+---
 
-Future development may include:
+## 🔭 What's next?
 
-- Expanded RAGE technology research.
-- More structured subsystem records.
-- Improved evidence and claim relationships.
-- Additional MCP tools.
-- Better research discovery and documentation.
-- Community contributions and independent verification.
+We want to:
 
-Development priorities will be guided by evidence quality, usefulness, and community feedback.
+- Expand our research database.
+- Learn more about RAGE technology.
+- Add more MCP tools.
+- Improve our research and evidence systems.
+- Welcome new developers and researchers.
+- Build a stronger open-source community.
 
-## Scope and safety
+---
 
-This project focuses on publicly available information and lawful research.
+## 🔒 Our rules
 
-It does not seek to:
+We only use publicly available information and lawful research.
 
-- Obtain or distribute leaked Rockstar source code.
-- Bypass DRM, anti-cheat, or access controls.
-- Inject code into proprietary game processes.
-- Access protected game memory without authorisation.
-- Present speculation as confirmed GTA VI implementation details.
+We do not use:
+- Leaked or private Rockstar source code.
+- DRM or anti-cheat bypasses.
+- Unauthorised access to game memory.
+- Code injection into proprietary games.
 
-## License
+We also separate confirmed information from reports, inferences, hypotheses and unknowns.
 
-Released under the MIT License. See [LICENSE](LICENSE).
+---
 
-Rockstar Games, Grand Theft Auto, and related trademarks and intellectual property belong to their respective owners.
+## 📜 License
+
+This project uses the MIT License. See [LICENSE](LICENSE).
+
+Rockstar Games and Grand Theft Auto are trademarks and intellectual property of their respective owners.
